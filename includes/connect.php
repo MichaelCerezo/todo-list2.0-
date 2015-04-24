@@ -9,4 +9,5 @@
 		// echo "Connection made";
 	}
 	$mysqli->close();
+
  ?>

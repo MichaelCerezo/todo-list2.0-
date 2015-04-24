@@ -20,3 +20,7 @@ body{
 	margin-top: 40px;
 	padding: 22px 6%;
 }
+
+.delete-button {
+	margin-left: 200px;
+}
