@@ -3,8 +3,6 @@
 <head>
 	<title>My To-Do List</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
 
 </head>
 <body>
@@ -43,7 +41,7 @@
 			if (new_task != '') {
 				$.post('includes/add-task.php', { task: new_task}, function(date){
 					$('add-new-task input[name=new-task]').val();
-						$(date).appendTo('task-list ul').hide().fadeIn();
+						$(date).appendTo('.task-list ul').hide().fadeIn();
 				});
 			}
 			return false;
