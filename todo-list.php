@@ -5,6 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+	<div>
+		<a id="logout" href="index.php">Logout</a>
+	</div>
 	<div id="title">
 		<p>
 			To Do List

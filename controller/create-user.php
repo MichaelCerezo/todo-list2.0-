@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
 <?php
 	require_once(__DIR__ . "/../model/config.php");
 
@@ -31,3 +39,6 @@
 
 
 ?>
+<a href="../login.php">Login</a>
+</body>
+</html>

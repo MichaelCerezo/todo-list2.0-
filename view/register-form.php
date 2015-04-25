@@ -24,5 +24,9 @@
 		<div id="button">
 			<button type="submit" class="btn btn-success">Submit</button>
 		</div>
+
+		<div>
+			<a href="index.php">Back    </a><a href="login.php">   Login</a>
+		</div>
 	</form>
 </div>
