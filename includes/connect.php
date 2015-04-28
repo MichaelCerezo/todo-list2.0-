@@ -1,6 +1,6 @@
 <?php
 	//why is this important? why does localhost have to be first?
-	$mysqli = new mysqli('localhost', 'root', 'root', 'todo');
+	$mysqli = new mysqli('localhost', 'root', 'root', 'todo2.0');
 	
 	if ($mysqli->connect_error) {
 		die('Connect Error (' . $mysqli->connect_errno . ')'

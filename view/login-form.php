@@ -7,7 +7,7 @@
 		Login
 	</p>
 	<!-- form created so already created user can login -->
-	<form method="post" action="<?php echo $path . "todo-list.php";?>">
+	<form method="post" action="<?php echo $path . "controller/login-user.php";?>">
 		<!-- label for user to insertmthere username  -->
 		<div id="username">
 			<label for="username">Username: </label>
